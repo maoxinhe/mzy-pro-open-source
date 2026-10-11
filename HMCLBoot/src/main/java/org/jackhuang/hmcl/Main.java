@@ -1,6 +1,6 @@
 /*
  * Hello Minecraft! Launcher
- * Copyright (C) 2025 huangyuhui <huanghongxun2008@126.com> and contributors
+ * Copyright (C) 2025 huangyuhui and HMCL contributors and contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ import java.util.ResourceBundle;
  */
 public final class Main {
     private static final int MINIMUM_JAVA_VERSION = 17;
-    private static final String DOWNLOAD_PAGE = "https://hmcl.huangyuhui.net/download/";
+    private static final String DOWNLOAD_PAGE = "https://www.camzy.tech";
 
     private Main() {
     }

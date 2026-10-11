@@ -1,6 +1,6 @@
 /*
  * Hello Minecraft! Launcher
- * Copyright (C) 2021  huangyuhui <huanghongxun2008@126.com> and contributors
+ * Copyright (C) 2021  huangyuhui and HMCL contributors and contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -48,16 +48,16 @@ public final class Metadata {
     public static final int MINIMUM_SUPPORTED_JAVA_VERSION = 17;
     public static final int RECOMMENDED_JAVA_VERSION = 21;
 
-    public static final String PUBLISH_URL = "https://github.com/huanghongxun/HMCL";
-    public static final String DOWNLOAD_URL = "https://github.com/huanghongxun/HMCL/releases";
-    public static final String HMCL_UPDATE_URL = System.getProperty("hmcl.update_source.override", "https://github.com/huanghongxun/HMCL/releases");
-    public static final String MANUAL_UPDATE_URL = "https://github.com/huanghongxun/HMCL/releases";
+    public static final String PUBLISH_URL = "https://github.com/maoxinhe/mzy-pro-open-source";
+    public static final String DOWNLOAD_URL = "https://github.com/maoxinhe/mzy-pro-source/releases";
+    public static final String HMCL_UPDATE_URL = System.getProperty("hmcl.update_source.override", "https://apc.camzy.uno/update_link");
+    public static final String MANUAL_UPDATE_URL = "https://github.com/maoxinhe/mzy-pro-source/releases";
 
-    public static final String DOCS_URL = "https://hmcl.huangyuhui.net";
-    public static final String CONTACT_URL = "https://github.com/huanghongxun/HMCL";
-    public static final String CHANGELOG_URL = "https://github.com/huanghongxun/HMCL/releases";
-    public static final String EULA_URL = "https://github.com/huanghongxun/HMCL";
-    public static final String GROUPS_URL = "";
+    public static final String DOCS_URL = "https://docs.camzy.tech";
+    public static final String CONTACT_URL = "https://github.com/maoxinhe/mzy-pro-open-source";
+    public static final String CHANGELOG_URL = "https://github.com/maoxinhe/mzy-pro-source/releases";
+    public static final String EULA_URL = "https://github.com/maoxinhe/mzy-pro-open-source";
+    public static final String GROUPS_URL = "https://www.camzy.tech";
 
     public static final String BUILD_CHANNEL = JarUtils.getAttribute("hmcl.version.type", "stable");
     public static final String GITHUB_SHA = JarUtils.getAttribute("hmcl.version.hash", null);
